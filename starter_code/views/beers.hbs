@@ -1,0 +1,13 @@
+<div class="index-container">
+    <ul class="beers__list">
+        {{#each beers}}
+        <li class="beers_item">
+        <figure><img class="imgs" src={{image_url}}/></figure>
+        <h3>{{name}}</h3>
+        <p>{{tagline}}</p>
+        <p>{{description}}</p>
+        </li>
+        {{/each}}
+    </ul>
+
+<div />
